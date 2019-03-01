@@ -51,7 +51,7 @@
                     android:alpha="0.9"
                     android:letterSpacing="0.08"
 		    android:layout_below="@id/ic_header"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@*android:color/accent_device_default_light"
                     android:textSize="32sp" />
 
                 <TextView
@@ -63,7 +63,7 @@
                     android:alpha="0.75"
                     android:letterSpacing="0.08"
                     android:layout_below="@id/header_title"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@*android:color/accent_device_default_light"
                     android:textSize="20sp" />
 
             </RelativeLayout>
