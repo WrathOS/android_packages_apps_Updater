@@ -42,6 +42,7 @@ import java.util.Set;
 public class UpdaterController {
 
     public static final String ACTION_DOWNLOAD_PROGRESS = "action_download_progress";
+    public static final String ACTION_INSTALL_FINISHED = "action_install_finished";
     public static final String ACTION_INSTALL_PROGRESS = "action_install_progress";
     public static final String ACTION_UPDATE_REMOVED = "action_update_removed";
     public static final String ACTION_UPDATE_STATUS = "action_update_status_change";
@@ -132,6 +133,13 @@ public class UpdaterController {
     void notifyInstallProgress(String downloadId) {
         Intent intent = new Intent();
         intent.setAction(ACTION_INSTALL_PROGRESS);
+        intent.putExtra(EXTRA_DOWNLOAD_ID, downloadId);
+        mBroadcastManager.sendBroadcast(intent);
+    }
+
+    void notifyInstallFinished(String downloadId) {
+        Intent intent = new Intent();
+        intent.setAction(ACTION_INSTALL_FINISHED);
         intent.putExtra(EXTRA_DOWNLOAD_ID, downloadId);
         mBroadcastManager.sendBroadcast(intent);
     }
