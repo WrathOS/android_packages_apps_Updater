@@ -72,9 +72,7 @@
     <string name="menu_delete_update">Delete</string>
     <string name="menu_copy_url">Copy URL</string>
     <string name="menu_export_update">Export update</string>
-    <string name="menu_show_changelog">Show changelog</string>
-    <string name="menu_local_update">local installation</string>
-    <string name="menu_changelog_url" translatable="false">https://t.me/wrathos_updates</string>
+    <string name="menu_local_update">Local update</string>
     <string name="menu_ab_perf_mode">Prioritize update process</string>
 
     <string name="snack_updates_found">New updates found</string>
@@ -105,6 +103,7 @@
     <string name="action_info">Info</string>
     <string name="action_delete">Delete</string>
     <string name="action_cancel">Cancel</string>
+	<string name="action_changelog">Changelog</string>
 
     <string name="confirm_delete_dialog_title">Delete file</string>
     <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
@@ -153,4 +152,7 @@
     <string name="dialog_permissions_title">Permissions</string>
     <string name="dialog_permissions_dismiss">Dismiss</string>
     <string name="dialog_permissions_ask">Ask again</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/WrathOS-Devices/changelogs/master/{device}.txt</string>
+    <string name="changelog_fail">Failed to retrieve changelog or changelog unavailable</string>
+
 </resources>

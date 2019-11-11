@@ -220,12 +220,6 @@ public class UpdatesActivity extends UpdatesListActivity {
                 showPreferencesDialog();
                 return true;
             }
-            case R.id.menu_show_changelog: {
-                Intent openUrl = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse(Utils.getChangelogURL(this)));
-                startActivity(openUrl);
-                return true;
-            }
             case R.id.menu_local_update: {
                 performFileSearch();
             }
