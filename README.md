@@ -2,6 +2,7 @@ Updater
 =======
 Simple application to download and apply OTA packages.
 
+Thanks To @syberia-project
 
 Server requirements
 -------------------

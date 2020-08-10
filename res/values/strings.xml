@@ -152,7 +152,7 @@
     <string name="dialog_permissions_title">Permissions</string>
     <string name="dialog_permissions_dismiss">Dismiss</string>
     <string name="dialog_permissions_ask">Ask again</string>
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/WrathOS-Devices/changelogs/master/{device}.txt</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/WrathOS-Devices/official_devices/ten/{device}/{device}.changelog</string>
     <string name="changelog_fail">Failed to retrieve changelog or changelog unavailable</string>
 
 </resources>
